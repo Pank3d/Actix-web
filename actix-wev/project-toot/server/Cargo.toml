@@ -1,0 +1,15 @@
+[package]
+name = "project-toot-server"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+actix-web = "~4"
+actix-ws = "~0.2"
+bb8 = "~0.8"
+bb8-postgres = "~0.8"
+borsh = "~0.9"
+chrono = "~0.4"
+futures = "~0.3"
+secp256k1 = { version = "~0.27", features = ["bitcoin-hashes", "rand"] }
+tokio-postgres = { version = "~0.7", features = [ "with-chrono-0_4" ] }

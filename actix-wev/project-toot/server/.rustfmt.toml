@@ -1,0 +1,11 @@
+binop_separator = "Back"
+combine_control_expr = false
+hard_tabs = true
+imports_granularity = "One"
+imports_layout = "HorizontalVertical"
+match_block_trailing_comma = true
+newline_style = "Unix"
+normalize_doc_attributes = true
+trailing_semicolon = false
+use_field_init_shorthand = true
+use_try_shorthand = true
